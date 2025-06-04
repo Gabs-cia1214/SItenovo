@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site Interativo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Meu Site</h1>
+    <p>Explore as interações legais que preparei para você!</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Contador de Cliques</h2>
+      <button id="btnContador">Clique em mim</button>
+      <p>Você clicou <span id="contador">0</span> vezes!</p>
+    </section>
+
+    <section class="card">
+      <h2>Escolha sua cor favorita</h2>
+      <select id="colorSelect">
+        <option value="">Selecione uma cor</option>
+        <option value="#FF5733">Vermelho</option>
+        <option value="#33C1FF">Azul</option>
+        <option value="#75FF33">Verde</option>
+        <option value="#FF33D4">Rosa</option>
+      </select>
+      <p id="colorText">Sua cor aparecerá aqui</p>
+    </section>
+
+    <section class="card">
+      <h2>Digite seu nome</h2>
+      <input type="text" id="nomeInput" placeholder="Seu nome aqui" />
+      <button id="btnSaudar">Saudar</button>
+      <p id="saudacao"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por você</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
